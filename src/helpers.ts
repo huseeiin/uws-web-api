@@ -1,6 +1,6 @@
 import { App, type HttpRequest, type HttpResponse } from "uWebSockets.js";
 
-export function createRequest(
+function createRequest(
   res: HttpResponse,
   req: HttpRequest
 ): Request | Promise<Request> {
