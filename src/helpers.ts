@@ -49,5 +49,7 @@ export async function serve(
 
       res.end(await response.text());
     })
-    .listen(3000, () => {});
+    .listen(3000, () => {
+      console.log("Server listening on", 3000);
+    });
 }
